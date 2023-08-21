@@ -1,38 +1,22 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-const Exercicio_1 = () => {
+const Exercicio_2 = () => {
   return (
     <View style={styles.container}>
-      <View style={styles.orangeSquare} />
-      <View style={styles.purpleSquare} />
-      <View style={styles.greenSquare} />
+      <View style={{ width:500, height:350, backgroundColor: '#FFC0CB'}}></View>
+      <View style={{ width:500, height:350, backgroundColor: '#ADD8E6'}}></View>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  orangeSquare: {
-    width: 100,
-    height: 100,
-    backgroundColor: 'orange',
-  },
-  purpleSquare: {
-    width: 100,
-    height: 100,
-    backgroundColor: 'purple',
-  },
-  greenSquare: {
-    width: 100,
-    height: 100,
-    backgroundColor: '#90EE90',
-  },
-});
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  });
 
-export default Exercicio_1;
+export default Exercicio_2;
